@@ -1,16 +1,15 @@
 #include <stdio.h>
 void string(char str[]){
-    
-    
-    for (int i = 0; i < 1; i++)
+    int i=0 ;
+    for (i = 0; i < 6; i++)
     {
-        printf("%s\n",str);
+        printf("%c",str[i]);
     }
     
 }
 int main ()
 {
-    char str [7]="ftima";
-    string("fatima");
+    char str [6]="ftima";
+    string(str);
     return(0);
 }
